@@ -1,0 +1,16 @@
+---
+title: "Background"
+output: html_document
+date: "2025-10-27"
+---
+**Jonathan Huynh's Background Profile** 
+
+Jonathan Huynh is a Master of Public Health candidate at Columbia University’s Mailman School of Public Health, specializing in Population and Family Health with a certificate in Applied Data Science and Biostatistics. With a background in Global Health from the University of California, San Diego, he brings a strong foundation in both research and community-based approaches to health equity.
+
+At UC San Diego, Jonathan graduated cum laude and served on the **Global Health Program Advisory Committee**, where he worked closely with faculty to expand mentorship, research, and professional development opportunities for students. As a **Global Health Mentor**, he led discussions on emerging global health challenges and guided undergraduates through academic and career pathways in the field.
+
+Jonathan’s research experience spans both laboratory and community health settings. At the **Stein Clinical Research Lab**, he contributed to studies on SARS-CoV-2 antibody kinetics and HIV latency reservoirs, gaining hands-on experience in biomedical data analysis and specimen processing. His work with the **Diabetes Screening Project** focused on identifying culturally tailored screening approaches for Vietnamese American communities, merging quantitative analysis with community-driven health outreach.
+
+Currently, Jonathan serves as a Student Researcher for **SportCoach+**, a global mental health and psychosocial support program implemented through sports. In this role, he conducts qualitative research and applies structured frameworks such as the CFIR to analyze implementation outcomes, supporting program recommendations that strengthen referral pathways and improve data quality across sites.
+
+Go back to the [homepage](index.html)

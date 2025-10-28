@@ -1,0 +1,19 @@
+---
+title: "My awesome website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+## Hi, I’m Jonathan Huynh.
+
+I’m a Master of Public Health candidate at Columbia University specializing in Population and Family Health. My work focuses on community-based research, health equity, and program evaluation. I’m passionate about using data and storytelling to bridge the gap between research and practice — particularly in mental health, adolescent health, and HIV prevention.
+
+This site was created as part of my Data Science 1 course, where I’m learning to use R for data visualization, analysis, and reproducible research. It’s a space to explore how coding and data science can complement my professional experiences in global and community health !!! 
+
+This website creation included using templates from the interactivity module by Jeff Goldsmith from [P8105](https://p8105.com/index.html).
+
+Also here is a picture of my cat, Leia: 
+![](Pictures/Leia.png)
