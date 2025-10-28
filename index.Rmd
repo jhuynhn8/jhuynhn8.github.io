@@ -1,13 +1,12 @@
 ---
-title: "My awesome website"
+title: "Jonathan Huynh's Website"
 output: 
   html_document:
     toc: true
     toc_float: true
-    theme: cerulean
 ---
 
-## Hi, I’m Jonathan Huynh.
+## Intro/Landing Page
 
 I’m a Master of Public Health candidate at Columbia University specializing in Population and Family Health. My work focuses on community-based research, health equity, and program evaluation. I’m passionate about using data and storytelling to bridge the gap between research and practice — particularly in mental health, adolescent health, and HIV prevention.
 

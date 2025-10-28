@@ -9,6 +9,10 @@ navbar:
       href: mailto:<jkh2157@cumc.columbia.edu>
     - icon: fa-github fa-lg
       href: https://github.com/jhuynhn8
+    - icon: fa-globe
+      href: "https://www.ifrc.org/"
+    - icon: fa-flask
+      href: "https://cfar.ucsd.edu/en/core-services/translational-virology/location-and-contact/"
 output:
   html_document:
-    theme: cerulean
+    theme: cosmo
