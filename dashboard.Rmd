@@ -25,7 +25,7 @@ dow = factor(order_dow, labels = c("Sun","Mon","Tue","Wed","Thu","Fri","Sat"))
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-### Chart A: Order by hour using slider visualization
+### Chart A: Line graph with slider 
 ```{r}
 orders_by_hour_dow = instacart_small |>
   count(dow, order_hour_of_day)
@@ -43,10 +43,12 @@ orders_by_hour_dow |>
 )
 ```
 
+This line plot shows the number of Instacart orders placed at each hour of the day, separated by day of the week. Peaks occur in the late morning to early evening, indicating that most users shop during daytime hours. Sunday shows the highest order volume throughout the day, while weekday activity is more moderate and consistent. 
+
 Column {data-width=350}
 -----------------------------------------------------------------------
 
-### Chart B: Top Products ! 
+### Chart B: Bar graph showing top products 
 
 ```{r}
 top_products = instacart_small |>
@@ -61,6 +63,8 @@ type = "bar",
 colors = "viridis"
 )
 ```
+
+This bar chart displays the ten most frequently purchased products. Items such as bananas, avocados, and organic milk dominate customer orders. 
 
 ### Chart C: Box plot showing the add to cart order by day of the week 
 
@@ -77,4 +81,6 @@ instacart_small |>
     yaxis = list(title = "Position in Cart")
   )
 ```
+
+This boxplot illustrates when items are added to customers’ carts across days of the week. Median positions remain relatively consistent, suggesting stable shopping behavior, but weekends show slightly greater variability—indicating larger or more variable carts on those days.
 
