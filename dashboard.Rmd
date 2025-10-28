@@ -43,8 +43,6 @@ orders_by_hour_dow |>
 )
 ```
 
-This line plot shows the number of Instacart orders placed at each hour of the day, separated by day of the week. Peaks occur in the late morning to early evening, indicating that most users shop during daytime hours. Sunday shows the highest order volume throughout the day, while weekday activity is more moderate and consistent. 
-
 Column {data-width=350}
 -----------------------------------------------------------------------
 
@@ -64,23 +62,28 @@ colors = "viridis"
 )
 ```
 
-This bar chart displays the ten most frequently purchased products. Items such as bananas, avocados, and organic milk dominate customer orders. 
 
-### Chart C: Box plot showing the add to cart order by day of the week 
+### Chart C: Box plot showing sequence of items ordered
 
 ```{r}
-instacart_small |>
-  plot_ly( x = ~dow, y = ~add_to_cart_order,
-    color = ~dow,
+dept_order =
+  instacart_small |>
+  filter(!is.na(add_to_cart_order), !is.na(department)) |>
+  group_by(department) |>
+  mutate(median_position = median(add_to_cart_order, na.rm = TRUE)) |>
+  ungroup() |>
+  mutate(department = fct_reorder(department, median_position))
+
+dept_order |>
+  plot_ly(x = ~department, y = ~add_to_cart_order,
+    color = ~department,
     type = "box",
     colors = "viridis"
   ) |>
   layout(
-    title = "Add to Cart Order by Day of Week",
-    xaxis = list(title = "Day of Week"),
-    yaxis = list(title = "Position in Cart")
+    title = "Add-to-Cart Order by Department (Ordered by Median Position)",
+    xaxis = list(title = "Department (Earliest to Latest)", tickangle = -45),
+    yaxis = list(title = "Position in Cart (1 = added first)")
   )
 ```
-
-This boxplot illustrates when items are added to customers’ carts across days of the week. Median positions remain relatively consistent, suggesting stable shopping behavior, but weekends show slightly greater variability—indicating larger or more variable carts on those days.
 
