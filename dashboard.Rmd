@@ -1,0 +1,80 @@
+---
+title: "Flexdashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+```
+
+# Importing Data 
+```{r}
+data("instacart")
+instacart_small = instacart |>
+sample_n(5000) |>
+mutate(
+dow = factor(order_dow, labels = c("Sun","Mon","Tue","Wed","Thu","Fri","Sat"))
+)
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A: Order by hour using slider visualization
+```{r}
+orders_by_hour_dow = instacart_small |>
+  count(dow, order_hour_of_day)
+
+orders_by_hour_dow |>
+  plot_ly(x = ~order_hour_of_day, y = ~n,
+    color = ~dow,
+    type  = "scatter",
+    mode  = "lines+markers",
+    colors = "viridis") |>
+  layout(
+    title = "Orders by Hour of Day (colored by Day of Week)",
+    xaxis = list(title = "Hour of day", rangeslider = list(visible = TRUE)),
+    yaxis = list(title = "Number of orders")
+)
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B: Top Products ! 
+
+```{r}
+top_products = instacart_small |>
+count(product_name, sort = TRUE) |>
+slice_max(n, n = 10) |>
+mutate(product_name = fct_reorder(product_name, n))
+
+top_products |>
+plot_ly(x = ~product_name,y = ~n,
+color = ~product_name,
+type = "bar",
+colors = "viridis"
+)
+```
+
+### Chart C: Box plot showing the add to cart order by day of the week 
+
+```{r}
+instacart_small |>
+  plot_ly( x = ~dow, y = ~add_to_cart_order,
+    color = ~dow,
+    type = "box",
+    colors = "viridis"
+  ) |>
+  layout(
+    title = "Add to Cart Order by Day of Week",
+    xaxis = list(title = "Day of Week"),
+    yaxis = list(title = "Position in Cart")
+  )
+```
+
