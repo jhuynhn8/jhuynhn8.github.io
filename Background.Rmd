@@ -5,13 +5,49 @@ date: "2025-10-27"
 ---
 **Jonathan Huynh's Background Profile** 
 
-Jonathan Huynh is a Master of Public Health candidate at Columbia University’s Mailman School of Public Health, specializing in Population and Family Health with a certificate in Applied Data Science and Biostatistics. With a background in Global Health from the University of California, San Diego, he brings a strong foundation in both research and community-based approaches to health equity.
 
-At UC San Diego, Jonathan served on the **Global Health Program Advisory Committee**, where he worked closely with faculty to expand mentorship, research, and professional development opportunities for students. As a **Global Health Mentor**, he led discussions on emerging global health challenges and guided undergraduates through academic and career pathways in the field.
+# **EDUCATION**
 
-Jonathan’s research experience spans both laboratory and community health settings. At the **Stein Clinical Research Lab**, he contributed to studies on SARS-CoV-2 antibody kinetics and HIV latency reservoirs, gaining hands-on experience in biomedical data analysis and specimen processing. His work with the **Diabetes Screening Project** focused on identifying culturally tailored screening approaches for Vietnamese American communities, merging quantitative analysis with community-driven health outreach.
+**COLUMBIA UNIVERSITY, MAILMAN SCHOOL OF PUBLIC HEALTH**
+Master of Public Health (MPH) - Population and Family Health / Applied Biostatistics 
 
-Currently, Jonathan serves as a Student Researcher for **SportCoach+**, a global mental health and psychosocial support program implemented through sports. In this role, he conducts qualitative research and applies structured frameworks such as the CFIR to analyze implementation outcomes, supporting program recommendations that strengthen referral pathways and improve data quality across sites.
+**UNIVERSITY OF CALIFORNIA, SAN DIEGO**   
+Bachelor of Science, Global Health 
+Cumulative GPA (July 2023) – 3.91  |  Cum Laude 
+Honors Marshall College | Provost Honors:  Winter 2019-Winter 2023
+
+
+# **LEADERSHIP EXPERIENCE** 
+
+**GLOBAL HEALTH PROGRAM ADVISORY COMMITTEE MEMBER**		   
+Advised faculty on expanding student access to mentorship, research, and career development opportunities; 
+Organized and moderated expert panels on Global Health Topics (Racism in Medicine, Global Mental Health, etc.); Led office hours and networking events, supporting students with coursework and career guidance.
+
+**GLOBAL HEALTH MENTOR**						 	                   
+Led weekly discussions for a student cohort on global health topics, research interests, and career pathways; Provided academic guidance, assisting students with coursework selection and degree planning; Facilitated networking opportunities, connecting students with alumni and faculty 
+
+# **TEACHING EXPERIENCE**
+
+**ORGANIC CHEMISTRY LAB UNDERGRADUATE ASSISTANT** 			 
+Led hands-on lab technique demonstrations; Calibrated and operated lab equipment for students (Nuclear Magnetic Resonance spectroscopy, Gas Chromatography); Participated in weekly discussions on effective teaching styles to enhance instructional methods for undergraduate lab courses 
+
+**GLOBAL HEALTH POLICY INSTRUCTIONAL ASSISTANT** 		     
+Graded and provided feedback on student assessments;Led workshops on policy analysis and communication skills, guiding students in writing policy memos, delivering elevator pitches, and conducting stakeholder simulations; Offered individualized academic support through office hours 
+
+# **RESEARCH EXPERIENCE**
+
+**STEIN CLINICAL RESEARCH- BIOLOGICAL AIDE- HIV Research**  				   
+Analyzed antibody kinetics post-SARS-CoV-2 infection and screening effectiveness in healthcare workers; Conducted data analysis, prepared abstracts and manuscript for SARS-CoV-2 research presentations; Processed blood samples and shadowed technicians on various techniques (ELISA, Urine sample processing, Tissue extractions); Performed flash freezing of tissue samples for a Last Gift Study, exploring latency HIV reservoirs 
+
+**STEIN CLINICAL RESEARCH- BIOLOGICAL AIDE- COVID-19 Research**  	
+Studied antibody kinetics among healthcare workers at UC San Diego to assess immune response trajectories following COVID-19 infection and vaccination. Performed blood sample processing, managed and analyzed quantitative serologic data, and developed recommendations based on longitudinal antibody trends. Contributed to manuscript drafting and interpretation of findings for publication.
+
+**DIABETES SCREENING PROJECT RESEARCH ASSISTANT**         
+Conducted a literature review on pre-diabetes screening tools and health risk indicators in Vietnamese American communities in San Diego; Assisted with data interpretation for a project evaluating the use of BMI metrics for diabetes risk; Developed data visualizations to support evaluation findings and support community-focused outreach efforts
+
+**SPORTSCOACH+ STUDENT RESEARCHER**              				      
+Conducted in-depth qualitative interviews with program implementers and documented detailed notes; Applied structured qualitative coding frameworks (CFIR) to analyze transcripts and synthesize thematic findings; Produced data visualizations to support interpretation and presentation of program results; Contributed recommendations for program implementation, including considerations for improving survey questions, site selection, and referral networks to mental health services; Conducted quantitative analysis for pre and post knowledge scores; Conducted quantitative analysis for depression, anxiety, and psychosocial support scales. 
+
 
 Links to my research website's can be found in the **navigation bar** above. 
 
